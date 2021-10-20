@@ -43,8 +43,9 @@ public class Main {
 //        System.out.println(b);
 //        System.out.println(c);
 
-        BigDecimal tenner = new BigDecimal();
-        BigDecimal tenner2 = new BigDecimal();
+        BigDecimal tenner = new BigDecimal("9");
+        BigDecimal tenner2 = new BigDecimal("10");
+        System.out.println(tenner.compareTo(tenner2));
 
        int number = 1;
 
@@ -54,7 +55,7 @@ public class Main {
         System.out.println(numbers.length);
 
         int[] numbers2 = {1, 2};
-        int numbers = {1,2,3,4,5};
+        int[] numberz = {1, 2, 3, 4, 5};
         for(int i=0; i < numbers.length; i++) {
             if(i == 3){
                continue;
